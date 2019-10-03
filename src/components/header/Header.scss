@@ -1,0 +1,22 @@
+header{
+    .logo{
+        margin: 27px 0 25px 0;
+    }
+    nav {
+        background: #6e7c8a;
+        width: 100%;
+        display: inline-block;
+        ul {
+            display: flex;
+            li {
+                margin-right: 5%;
+                text-transform: uppercase;
+                padding: 19px 0;
+                font-size: 14px;
+                font-weight: 600;
+                color: #ffffff;
+                cursor: pointer;
+            }
+        }
+    }
+}
