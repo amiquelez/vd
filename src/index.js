@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Layout from './containers/layout/Layout';
+import Layout from './containers/Layout/Layout';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Layout />, document.getElementById('root'));

@@ -1,0 +1,31 @@
+@media only screen and (max-width: 640px){
+    .nav_bar_mobile{
+        background: #6e7c8a;
+        height: 700px;
+        width: 90%;
+        position: absolute;
+        left: -90%;
+        transition: left .5s;
+        .content{
+            width: 90%;
+            margin: auto;
+            .nav_bar_img_vd{
+                display: inline-block;
+                margin: 44px 0 47px 0;
+            }
+            #btn_close{
+                position: absolute;
+                top: 5%;
+                right: 5%;
+                max-width: 24px;
+                cursor: pointer;
+            }
+            #btn_close img{
+                width: 100%;
+            }
+        }
+    }
+    .is-nav-open{
+        left: 0;
+    }
+}

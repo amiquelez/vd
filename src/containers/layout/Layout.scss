@@ -5,3 +5,17 @@ body{
     width: 1200px;
     margin: auto;
 }
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 640px){
+    .desktop{
+		display: none;
+	} 
+	.mobile{
+		display: block;
+    }
+    .content{
+        width: 90%;
+    }
+}

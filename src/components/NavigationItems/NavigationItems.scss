@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    li {
+        margin-right: 5%;
+        text-transform: uppercase;
+        padding: 19px 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover{
+            color: #F57F24;
+        }
+    }
+}
+
+@media only screen and (max-width: 640px){
+    ul{
+        flex-direction: column;
+        li{
+            font-size: 18px;
+            padding: 0;
+            font-weight: 700;
+            margin-bottom: 19px;
+        }
+    }
+}
