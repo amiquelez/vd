@@ -3,7 +3,7 @@ import React from 'react';
 import './NavigationItems.scss';
 
 const NavigationItems = () => (
-    <ul className="content">
+    <ul className="content nav_list">
         <li>Inicio</li>
         <li id="btn_ultimos_mb">últimos videos </li>
         <li id="btn_masvotados_mb">Más votados</li>

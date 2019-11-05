@@ -1,4 +1,4 @@
-ul {
+ul.nav_list {
     display: flex;
     li {
         margin-right: 5%;
@@ -15,7 +15,7 @@ ul {
 }
 
 @media only screen and (max-width: 640px){
-    ul{
+    ul.nav_list{
         flex-direction: column;
         li{
             font-size: 18px;

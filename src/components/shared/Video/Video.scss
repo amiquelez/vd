@@ -1,0 +1,25 @@
+.video{
+    min-width: 260px;
+    padding: 0 20px;
+    .img_container{
+        position: relative;
+        height: 146px;
+        overflow: hidden;
+        .video_img{
+            width: 100%;
+        }
+        .btn_play{
+            position: absolute;
+            top: 40%;
+            left: 44%;
+        }
+        margin-bottom: 12px;
+    }
+    h4{
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
