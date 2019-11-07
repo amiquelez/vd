@@ -5,6 +5,7 @@
         width: 90%;
         position: absolute;
         left: -90%;
+        z-index: 999;
         transition: left .5s;
         .content{
             width: 90%;

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import Header from '../../components/Header/Header';
 import NavMb from '../../components/NavMb/NavMb';
-import Slider from '../../components/shared/Slider/Slider';
 import './Layout.scss';
 import videos from '../../assets/data';
+import LastVideos from '../../components/LastVideos/LastVideos';
 
 class Layout extends Component {
 
@@ -26,9 +26,7 @@ class Layout extends Component {
       <React.Fragment>
         <NavMb open={this.state.navMobileOpen} close={this.closeNav} />
         <Header click={this.openNav} />
-        <div className="content" style={{width: '1275px'}}>
-          <Slider data={this.state.videos} />
-        </div>
+        <LastVideos videos={this.state.videos} />
       </React.Fragment>
     );
   }
